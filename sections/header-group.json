@@ -1,0 +1,77 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free shipping on all orders over $150",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": true,
+        "enable_language_selector": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "drawer",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "scheme-d299c18e-56ac-4f5d-ba14-3f205a740a64",
+        "menu_color_scheme": "scheme-d299c18e-56ac-4f5d-ba14-3f205a740a64",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "announcement_bar_8DrNxP": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_gbJB7M": {
+          "type": "announcement",
+          "settings": {
+            "text": "Sell with us",
+            "link": "https:\/\/rowkxcn8nr0.typeform.com\/to\/olRVOBE2"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_gbJB7M"
+      ],
+      "settings": {
+        "color_scheme": "scheme-f1147ec8-89fe-4c31-8add-8e6eef25f995",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "announcement_bar_8DrNxP"
+  ]
+}
